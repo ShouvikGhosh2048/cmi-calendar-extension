@@ -1,0 +1,38 @@
+#cmi-calendar-extension {
+    font-family: monospace;
+    padding: 10px;
+}
+
+#cmi-calendar-extension table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#cmi-calendar-extension td {
+    vertical-align: top;
+}
+
+#cmi-calendar-extension td, #cmi-calendar-extension th {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+#cmi-calendar-extension td > span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#selected-courses, #other-courses {
+    margin-top: 30px;
+}
+
+#selected-courses > div, #other-courses > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#selected-courses span, #other-courses span {
+    white-space: pre;
+}
